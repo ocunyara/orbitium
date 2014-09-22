@@ -1,9 +1,9 @@
 object Form2: TForm2
-  Left = 218
-  Top = 413
-  Width = 928
-  Height = 480
-  Caption = 'Form2'
+  Left = 233
+  Top = 52
+  Width = 639
+  Height = 618
+  Caption = 'game'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,4 +13,13 @@ object Form2: TForm2
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object btn1: TButton
+    Left = 8
+    Top = 8
+    Width = 33
+    Height = 41
+    Caption = 'btn1'
+    TabOrder = 0
+    OnClick = btn1Click
+  end
 end
